@@ -8,7 +8,7 @@ type Cat = {
   url: string
 }
 
-const API_KEY = 'API_KEY'
+const API_KEY = process.env.REACT_APP_API_KEY
 
 export const App = () => {
   const [cat, setCat] = useState<Cat | null>(null)
