@@ -1,0 +1,28 @@
+.card {
+  overflow: hidden;
+
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgb(0 0 0 / 10%);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgb(0 0 0 / 15%);
+  }
+}
+
+.image {
+  display: block;
+
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+
+  object-fit: cover;
+}
